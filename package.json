@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node ./src/",
     "challenge-a": "babel-node ./src/challenges/FETCH_RESORT_NAMES.js",
     "challenge-b": "babel-node ./src/challenges/CANCEL_FETCHING.js",
     "challenge-c": "babel-node ./src/challenges/CLEAR_SUGGESTIONS.js",
@@ -14,7 +15,8 @@
   "dependencies": {
     "babel-cli": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
-    "babel-preset-stage-0": "^6.16.0"
+    "babel-preset-stage-0": "^6.16.0",
+    "redux": "^4.0.0"
   },
   "devDependencies": {
     "babel-preset-stage-0": "^6.16.0",
